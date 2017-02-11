@@ -1,2 +1,6 @@
 # Comp-Sci303
-Projects for class
+################
+################
+@Author Jeff Morgan
+@Author Murad
+@Author John
