@@ -110,6 +110,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Error.h" />
     <ClInclude Include="InfixEval.h" />
   </ItemGroup>
   <ItemGroup>

@@ -18,6 +18,9 @@
     <ClInclude Include="InfixEval.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InfixEval.cpp">
