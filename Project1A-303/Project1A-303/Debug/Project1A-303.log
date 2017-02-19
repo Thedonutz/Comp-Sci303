@@ -1,5 +1,7 @@
 ﻿  main.cpp
   InfixEval.cpp
+c:\users\quick\documents\schoolprojects\comp-sci303\project1a-303\project1a-303\infixeval.cpp(173): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   Generating Code...
+c:\users\quick\documents\schoolprojects\comp-sci303\project1a-303\project1a-303\infixeval.cpp(81): warning C4715: 'InfixEval::eval': not all control paths return a value
   Project1A-303.vcxproj -> C:\Users\quick\Documents\SchoolProjects\Comp-Sci303\Project1A-303\Debug\Project1A-303.exe
   Project1A-303.vcxproj -> C:\Users\quick\Documents\SchoolProjects\Comp-Sci303\Project1A-303\Debug\Project1A-303.pdb (Partial PDB)

@@ -12,28 +12,21 @@ class InfixEval
 public:
 	
 	InfixEval();
-	
 	int eval(const string expression);
 
 private:
-	
+
+	/**
+	*Determines precedence and assigns Value
+	*@Param OPERATORS Precedence.
+	*/
+	int precedence(char operat) const {return Preced[OPERATORS.find(operat)];}
 	
 	/**
-		Determines precedence and assigns Value
-		@Param OPERATORS Precedence.
+	*Simple Bool Check for OPERATOR
+	*@Param next_Char from Tokens.
 	*/
-	int precedence(char operat) const 
-	{
-		return Preced[OPERATORS.find(operat)];
-	}
-	/**
-		Simple Bool Check for OPERATOR
-		@Param next_Char from Tokens.
-	*/
-	bool is_operator(char ch) const 
-	{
-		return OPERATORS.find(ch) != string::npos;
-	}
+	bool is_operator(char ch) const {return OPERATORS.find(ch) != string::npos; }
 	
 	
 	void process_OP(char op);
@@ -43,7 +36,8 @@ private:
 	//DATA Fields
 	static const int Preced[];
 	static const string OPERATORS;
-	string infix;
+	int infix;
 	stack<char> operator_stack;
+	stack<int> integer_stack;
 
 };
