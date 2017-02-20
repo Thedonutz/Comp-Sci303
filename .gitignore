@@ -30,3 +30,4 @@
 
 #No need for OpenDB
 *.opendb
+.opendb
