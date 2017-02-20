@@ -31,6 +31,7 @@ private:
 	
 	void process_OP(char op);
 	int eval_op(char op);
+	int eval_opString(string op);
 
 	
 	//DATA Fields
