@@ -1,7 +1,11 @@
 ﻿  main.cpp
   InfixEval.cpp
-c:\users\quick\documents\schoolprojects\comp-sci303\project1a-303\project1a-303\infixeval.cpp(170): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\quick\documents\schoolprojects\comp-sci303\project1a-303\project1a-303\infixeval.cpp(38): warning C4101: 'futureChar': unreferenced local variable
+c:\users\quick\documents\schoolprojects\comp-sci303\project1a-303\project1a-303\infixeval.cpp(27): warning C4101: 'bop': unreferenced local variable
+c:\users\quick\documents\schoolprojects\comp-sci303\project1a-303\project1a-303\infixeval.cpp(38): warning C4101: 'afterChar': unreferenced local variable
+c:\users\quick\documents\schoolprojects\comp-sci303\project1a-303\project1a-303\infixeval.cpp(301): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   Generating Code...
-c:\users\quick\documents\schoolprojects\comp-sci303\project1a-303\project1a-303\infixeval.cpp(86): warning C4715: 'InfixEval::eval': not all control paths return a value
+c:\users\quick\documents\schoolprojects\comp-sci303\project1a-303\project1a-303\infixeval.cpp(277): warning C4715: 'InfixEval::eval_bool': not all control paths return a value
+c:\users\quick\documents\schoolprojects\comp-sci303\project1a-303\project1a-303\infixeval.cpp(91): warning C4715: 'InfixEval::eval': not all control paths return a value
   Project1A-303.vcxproj -> C:\Users\quick\Documents\SchoolProjects\Comp-Sci303\Project1A-303\Debug\Project1A-303.exe
   Project1A-303.vcxproj -> C:\Users\quick\Documents\SchoolProjects\Comp-Sci303\Project1A-303\Debug\Project1A-303.pdb (Partial PDB)
