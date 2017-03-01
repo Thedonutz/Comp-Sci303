@@ -1,0 +1,8 @@
+Process_OP operates at BigO(n).
+
+Eval_OP operates at BigO(n).
+
+Eval_Bool operates at BigO(n).
+
+
+Each object in the main operates at Time/space complexity of BigO(N). 
